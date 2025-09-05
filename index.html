@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saibaba Donga — ECE Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          <h1>Saibaba Donga</h1>
+          <p>B.Tech (ECE) • Web & Embedded Enthusiast</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <!-- decorative circuit SVG -->
+      <svg class="circuit-svg" viewBox="0 0 1200 500" preserveAspectRatio="none" aria-hidden>
+        <path class="circuit-path" d="M10 80 C200 10, 400 150, 600 80 C800 10, 1000 150, 1190 80" />
+        <path class="circuit-path" d="M30 220 C180 140, 350 300, 580 240 C760 190, 900 300, 1160 260" />
+        <g stroke="var(--accent)" stroke-width="3" fill="var(--accent)">
+          <circle cx="200" cy="80" r="4" />
+          <circle cx="580" cy="240" r="4" />
+          <rect x="590" y="70" width="12" height="8" rx="2" />
+        </g>
+      </svg>
+
+      <div class="hero-grid">
+        <div class="intro">
+          <h2>Hi — I'm Saibaba</h2>
+          <p>A motivated B.Tech ECE student (2022–2026) with hands-on experience in web development and a growing interest in embedded systems. I build responsive web front-ends and prototype small electronics concepts using circuit-inspired design thinking.</p>
+
+          <div class="cta">
+            <a class="btn" href="#projects">See Projects</a>
+            <a class="btn" href="#contact" style="margin-left:10px;opacity:0.9">Contact Me</a>
+          </div>
+
+          <div style="margin-top:16px">
+            <span class="chip">Python</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">HTML/CSS</span>
+          </div>
+        </div>
+
+        <aside class="contact-card">
+          <h3>Contact</h3>
+          <div class="info">+91 9398895588</div>
+          <div class="info">sripurnasai200@gmail.com</div>
+          <div style="height:12px"></div>
+          <h4>Education</h4>
+          <div class="info">B.Tech (Electronics & Communication) — Swarnandhra College of Engineering & Technology (2022–2026)</div>
+          <div style="height:10px"></div>
+          <h4>Location</h4>
+          <div class="info">2-173, Kothapadu, West Godavari, AP — 534217</div>
+        </aside>
+
+      </div>
+    </div>
+
+    <section id="about" class="card">
+      <h4>Objective</h4>
+      <p>A highly motivated B.Tech student with a strong foundation in Python, JavaScript, and web development. Seeking an entry-level Software Engineer role to apply hands-on project experience and problem-solving skills to build scalable applications and contribute to team success.</p>
+    </section>
+
+    <section id="skills" class="grid-3">
+      <div class="card">
+        <h4>Technical Skills</h4>
+        <div class="skill"><div class="dot"></div><div>Languages: Python, JavaScript, SQL</div></div>
+        <div class="skill"><div class="dot"></div><div>Web: HTML5, CSS3</div></div>
+        <div class="skill"><div class="dot"></div><div>Tools: Git, GitHub, VS Code</div></div>
+        <div class="skill"><div class="dot"></div><div>Interests: Embedded systems, PCB prototyping</div></div>
+      </div>
+
+      <div class="card">
+        <h4>Education</h4>
+        <div class="timeline">
+          <p><strong>B.Tech (ECE)</strong><br>Swarnandhra College of Engineering and Technology — 2022 - 2026 (Pursuing)</p>
+          <p><strong>Intermediate (MPC)</strong><br>Pragathi Junior College — Percentage: 70% (2020 - 2022)</p>
+          <p><strong>SSC</strong><br>ZP High School — CGPA: 9.8/10 (2019 - 2020)</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h4>Certifications & Internships</h4>
+        <p>Certified HTML, CSS & JavaScript — Cisco</p>
+        <p>Certified Web Fullstack Developer — Edu Skills Academy</p>
+        <p><strong>Intern:</strong> Web Full-Stack Developer Intern — EduSkills Academy (Virtual) | Jan – Mar 2025</p>
+      </div>
+    </section>
+
+    <section id="projects" class="card projects">
+      <h4>Projects</h4>
+      <div class="proj">
+        <h5>Amazon Landing Page Clone</h5>
+        <p>Developed a responsive Amazon landing page using HTML5 & CSS3. Focused on layout, navigation, and responsive behavior to match real-world UI patterns.</p>
+      </div>
+      <div class="proj">
+        <h5>Personal Portfolio Website</h5>
+        <p>Built a portfolio to showcase projects and skills. Sections include About, Skills, Projects, and Contact.</p>
+      </div>
+
+      <p style="margin-top:12px;color:var(--muted)">Want these as live demo links? I can help host them on GitHub Pages and provide deployment-ready source files.</p>
+    </section>
+
+    <section id="hobbies" class="grid-3" style="margin-top:18px">
+      <div class="card"><h4>Hobbies</h4><p>Editing, Playing, Drawing</p></div>
+      <div class="card"><h4>Languages Known</h4><p>Telugu, English, Hindi</p></div>
+      <div class="card"><h4>Soft Skills</h4><p>Problem-Solving, Teamwork, Communication</p></div>
+    </section>
+
+    <section id="contact" class="card">
+      <h4>Get in touch</h4>
+      <p>If you'd like to collaborate or hire me, send an email to <strong>sripurnasai200@gmail.com</strong> or call <strong>+91 9398895588</strong>.</p>
+      <form id="contactForm" style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+        <input name="name" placeholder="Your name" style="flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit" />
+        <input name="email" placeholder="Your email" style="flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit" />
+        <textarea name="message" placeholder="Message" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit"></textarea>
+        <button class="btn" type="button" onclick="sendMessage()">Send Message</button>
+      </form>
+      <div id="formStatus" style="margin-top:10px;color:var(--muted)"></div>
+    </section>
+
+    <footer>
+      © 2025 Saibaba Donga — Built with an ECE-inspired design
+    </footer>
+  </div>
+</body>
+</html>
