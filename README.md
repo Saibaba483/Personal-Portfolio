@@ -24,4 +24,10 @@ CSS3 for styling and responsiveness
 
 JavaScript for interactivity and dynamic features
 
+Clone the repository:
+
+git clone: https://saibaba483.github.io/Personal-Portfolio/
+
+Open index.html in your browser.
+
 This project not only represents my coding abilities but also my creativity in web design. It’s a step toward building my career in the field of technology and improving my frontend development skills.
